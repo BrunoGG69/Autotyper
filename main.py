@@ -14,7 +14,6 @@ def auto_typer(text, delay, repetitions):
             keyboard.type(char)
             time.sleep(delay)
 
-
         keyboard.press(Key.enter)
         keyboard.release(Key.enter)
 
